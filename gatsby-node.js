@@ -1,5 +1,6 @@
 const path = require(`path`)
 const { createFilePath } = require(`gatsby-source-filesystem`)
+const axios = require("axios")
 
 exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions
@@ -46,6 +47,22 @@ exports.createPages = async ({ graphql, actions }) => {
         previous,
         next,
       },
+    })
+  })
+
+  // Create pages for Coronavirus data - https://covidtracking.com/api#swaggerWrapper
+
+  const allStates = await axios.get(
+    "https://covidtracking.com/api/v1/states/current.json"
+  )
+
+  console.log("allStates", allStates.data)
+
+  allStates.data.forEach(state => {
+    createPage({
+      path: `/covid/${state.state.toLowerCase()}`,
+      component: require.resolve("./src/templates/state.js"),
+      context: { state },
     })
   })
 }
