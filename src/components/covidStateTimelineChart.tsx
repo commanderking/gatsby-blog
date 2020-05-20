@@ -23,9 +23,8 @@ const CustomTooltip = ({ active, payload }) => {
 }
 
 const CovidTimelineChart = ({ data }) => {
-  console.log("data", data)
   return (
-    <LineChart width={500} height={300} data={data}>
+    <LineChart width={800} height={300} data={data}>
       <XAxis
         dataKey="index"
         tick={false}

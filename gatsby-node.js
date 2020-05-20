@@ -58,6 +58,12 @@ exports.createPages = async ({ graphql, actions }) => {
 
   console.log("allStates", allStates.data)
 
+  createPage({
+    path: `/covid/`,
+    component: require.resolve("./src/templates/covid-home.js"),
+    context: { data: allStates.data },
+  })
+
   allStates.data.forEach(state => {
     createPage({
       path: `/covid/${state.state.toLowerCase()}`,

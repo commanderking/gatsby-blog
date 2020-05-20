@@ -17,8 +17,7 @@ const getStateData = async (state, setStateTimeData) => {
 const State = ({ pageContext: { state } }) => {
   const [stateTimeData, setStateTimeData] = useState([])
   useEffect(() => {
-    const stateData = getStateData(state.state, setStateTimeData)
-    console.log("stateData", stateData)
+    getStateData(state.state, setStateTimeData)
   }, [])
 
   const formattedTimeData = [...stateTimeData].reverse().map((day, index) => {
@@ -29,11 +28,15 @@ const State = ({ pageContext: { state } }) => {
     }
   })
 
-  console.log("formattedTimeData", formattedTimeData)
-
   return (
-    <div>
-      State <StateTimelineChart data={formattedTimeData} />
+    <div style={{ padding: "20px" }}>
+      <h4>
+        {state.state} COVID-19 New Positive Cases Per Day (as of{" "}
+        {state.checkTimeEt} EST))
+      </h4>
+      <StateTimelineChart data={formattedTimeData} />
+      <div>Total Positive Cases: {state.positive}</div>
+      <div>Deaths: {state.death}</div>
     </div>
   )
 }
