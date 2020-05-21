@@ -32,7 +32,7 @@ const State = ({ pageContext: { state } }) => {
     <div style={{ padding: "20px" }}>
       <h4>
         {state.state} COVID-19 New Positive Cases Per Day (as of{" "}
-        {state.checkTimeEt} EST))
+        {state.checkTimeEt} EST)
       </h4>
       <StateTimelineChart data={formattedTimeData} />
       <div>Total Positive Cases: {state.positive}</div>
