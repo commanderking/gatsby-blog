@@ -10,12 +10,12 @@ import {
   Label,
 } from "recharts"
 
-const CustomTooltip = ({ active, payload }) => {
+const CustomTooltip = ({ active, payload, yDataKey }) => {
   if (active && payload && payload.length) {
     return (
       <div style={{ backgroundColor: "white " }}>
         <div>{payload[0].payload.formattedDate}</div>
-        <div>{payload[0].payload.positiveIncrease}</div>
+        <div>{payload[0].payload[yDataKey]}</div>
       </div>
     )
   }
@@ -40,7 +40,7 @@ const CovidTimelineChart = ({
         }}
       ></XAxis>
       <YAxis />
-      <Tooltip content={<CustomTooltip />} />
+      <Tooltip content={<CustomTooltip yDataKey={yDataKey} />} />
       <Legend />
       <Line
         type="monotone"

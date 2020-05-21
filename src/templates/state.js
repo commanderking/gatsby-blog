@@ -40,7 +40,7 @@ const State = ({ pageContext: { state } }) => {
       <h4>{state.state} Total Positive Cases</h4>
       <StateTimelineChart
         data={formattedTimeData}
-        yDataKey={"total"}
+        yDataKey={"positive"}
         xLabel="Total Cases / Day"
       />
       <div>Total Positive Cases: {state.positive}</div>
