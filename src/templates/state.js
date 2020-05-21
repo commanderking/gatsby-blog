@@ -27,16 +27,24 @@ const State = ({ pageContext: { state } }) => {
       formattedDate: new Date(day.dateChecked).toDateString(),
     }
   })
-
+  console.log("stateTimeData", stateTimeData)
   return (
     <div style={{ padding: "20px" }}>
-      <h4>
-        {state.state} COVID-19 New Positive Cases Per Day (as of{" "}
-        {state.checkTimeEt} EST)
-      </h4>
-      <StateTimelineChart data={formattedTimeData} />
+      <h3>Last Updated: {state.checkTimeEt} EST</h3>
+      <h4>{state.state} COVID-19 New Positive Cases Per Day</h4>
+      <StateTimelineChart
+        data={formattedTimeData}
+        yDataKey={"positiveIncrease"}
+        xLabel="Additional Cases / Day"
+      />
+      <h4>{state.state} Total Positive Cases</h4>
+      <StateTimelineChart
+        data={formattedTimeData}
+        yDataKey={"positive"}
+        xLabel="Total Cases / Day"
+      />
       <div>Total Positive Cases: {state.positive}</div>
-      <div>Deaths: {state.death}</div>
+      <div>Total Deaths: {state.death}</div>
     </div>
   )
 }
