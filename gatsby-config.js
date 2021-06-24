@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Test App`,
+    title: `Blogging for Fun`,
     author: {
-      name: `Jeff King`,
-      summary: `who when stuck at home writes about Voice of China. ???`,
+      name: `Jeffrey King`,
+      summary: ``,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
