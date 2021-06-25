@@ -1,7 +1,7 @@
 ---
 title: Adventures of Peach and Jeffrey (Day 2 and 3)
 date: "2021-06-23"
-description: ""
+description: "Peach fights for her rights as a hungry cat"
 ---
 
 ## Day 2 (6/22)
