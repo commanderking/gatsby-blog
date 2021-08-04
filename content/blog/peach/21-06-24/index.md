@@ -38,7 +38,7 @@ Would Peach be able to make the jump?
   </video>
 </figure>
 
-Success!
+On the window sill!
 
 ![Cat on Window sill](./peach_window_1.jpeg)
 
@@ -46,6 +46,10 @@ Where the birds at?
 
 ![Cat on Window sill](./peach_window_2.jpeg)
 
-Satisfaction
+What now?
 
 ![Cat on Window sill](./peach_window_3.jpeg)
+
+After engaging her physical senses, Peach returned to an intellectual pursuit. Jeffrey was trying explain to Peach the contents of the research paper, but Peach was unimpressed with his explanation.
+
+![Cat Reading Paper](./peach_paper_review.jpeg)
