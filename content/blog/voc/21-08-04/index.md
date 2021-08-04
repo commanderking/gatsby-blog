@@ -35,7 +35,7 @@ Great choice!
 
 #### Rating: B
 
-The difficulty in finding a VOC gif with only Li RongHao bodes poorly for the selection, but the two time judge and one time winner (Xing Hanming) is the only judge who has been on the show for the past two seasons. This continuity cannot be overlooked, but Li RongHao has never been one of the more vocal coaches during the competition. His return also certainly means the return of more small eye jokes from his fellow judges. Maybe the producers have inside information that those jokes do well? 
+The difficulty in finding a VOC gif with only Li RongHao bodes poorly for the selection, but the two time judge and one time winner (Xing Hanming) is the only judge who has been on the show for the past two seasons. This continuity cannot be overlooked, but Li RongHao has never been one of the more vocal coaches during the competition. His return also certainly guarantees the return of more small eye jokes from his fellow judges. Maybe these jokes actually poll well with the Chinese audience?! 
 
 With the introduction of original song performances from last season, Li also is a good choice given his experience of composing. Li checks off all the practical boxes, though it's hard to be enthusiastic about his return, though perhaps that speaks to the quality of the other judges that have been on the show. 
 
