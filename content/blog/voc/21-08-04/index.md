@@ -1,7 +1,7 @@
 ---
 title: Season 10 - Analysis of Judge Selection
 date: "2021-08-04T22:40:32.169Z"
-description: How does Season 10's judge selection stack up to what it could have been? Was Diamond Zhang the best choice for helper coach for Sister Na? 
+description: How does Season 10's judge selection stack up to what it could have been? 
 ---
 
 In the first episode of Voice of China (VOC) season ten, the [judge performances](https://youtu.be/tnsCWtmhGq0?t=489) paid homage to previous performances from past seasons, including those by Jay Chou, Nick, Li Jian, and Liu Huan. The tribute was a nice gesture considering it'd be impossible to bring back everyone's favorite judges. The producers, however, likely still put heavy consideration into who to bring back for this celebratory season ten. How well did they do? Here's a semi-serious, mostly facetious analysis of how the producers did with their judge selection.
